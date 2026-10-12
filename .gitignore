@@ -8,7 +8,7 @@ client/node_modules/
 !.env.example
 
 # Build files
-client/build/
+**/client/build/
 dist/
 
 # Logs
@@ -29,7 +29,7 @@ server/temp-*.js
 
 # Local data and generated uploads
 uploads/
-src/data/
+**/src/data/
 releases/
 
 # Test coverage
